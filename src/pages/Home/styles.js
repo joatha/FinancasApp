@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Background= styled.View`
     flex:1;
-    background-color: #131313;
+    background-color: #2b2f55;
 
 
 `;
@@ -29,7 +29,7 @@ export const Saldo= styled.Text`
 `;
 
 export const Title= styled.Text`
-      margin-left:15px;
+      margin-left:5px;
       color:#00b94a;
       margin-bottom:10px;
 
@@ -49,3 +49,9 @@ export const List = styled.FlatList.attrs({
 
 
 
+export const Area = styled.View`
+    flex-direction:row;
+    margin-left:15px;
+    align-items:baseline;
+
+`;

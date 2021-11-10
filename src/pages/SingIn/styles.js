@@ -4,7 +4,7 @@ import styled from "styled-components/native";
 
 export const Background = styled.View`
     flex:1;
-    background-color:#131313;
+    background-color:#2b2f55;
 
 `;
 
@@ -26,7 +26,7 @@ export const AreaInput = styled.View`
 `;
 
 export const Input = styled.TextInput.attrs({
-    placeholderTextColor:'rgba(255,255,255,0.20)'
+    placeholderTextColor:'#FFF'
 })`
 
     background: rgba(0,0,0,0.20);
@@ -43,7 +43,7 @@ export const SubmitButton= styled.TouchableOpacity`
 
     align-items:center;
     justify-content:center;
-    background-color:#00b94a;
+    background-color:#f19f74;
     width:90%;
     height:45px;
     border-radius:7px;
@@ -55,7 +55,7 @@ export const SubmitButton= styled.TouchableOpacity`
 export const SubmitText= styled.Text`
 
     font-size:20px;
-    color:#131313;
+    color:#FFF;
 
 `;
 

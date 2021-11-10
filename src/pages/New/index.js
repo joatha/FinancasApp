@@ -3,10 +3,9 @@ import { SafeAreaView, Keyboard, TouchableWithoutFeedback, Alert } from 'react-n
 import {format} from 'date-fns';
 import {useNavigation} from '@react-navigation/native'
 import firebase from '../../services/firebase';
-
 import Header from '../../components/Header';
 import {AuthContext} from '../../contexts/auth';
-import {Background,Input, SubmitButton,SubmitText  } from './styles';
+import {Background,Input, SubmitButton,SubmitText,Logo  } from './styles';
 
 import Picker from '../../components/Picker';
 
@@ -81,6 +80,8 @@ export default function New() {
      <Header/>
 
       <SafeAreaView style={{alignItems:'center'}}>
+
+      <Logo source={require('../../assets/Logo.png')}/>
         <Input       
         placeholder="Valor desejado"
         keyboardType= "numeric"
@@ -95,9 +96,12 @@ export default function New() {
       <SubmitButton onPress={handleSubmit}>
         <SubmitText>Registrar</SubmitText>
       </SubmitButton>
+      
 
       </SafeAreaView>
     </Background>
+
+   
 
     </TouchableWithoutFeedback>
   );

@@ -5,7 +5,10 @@ export const Container = styled.View`
     margin-bottom:5px;
     padding:10px;
     box-shadow:2px 2px rgba(0,0,0,0.40);
-    background-color:rgba(0,0,0,0.2);
+    background-color:#c2c9ff;
+    width:90%;
+    margin-left:15px;
+    border-radius:7px;
 
 `;
 
