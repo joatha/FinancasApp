@@ -1,15 +1,14 @@
 
-<h1>Suas Finanças</h1>
+<h1>Your Finances</h1>
 
 > Status: Development
 
-Aplicativo para controle de gastos pessoais. 
 
-# Desafio: 
+Application to control personal expenses, where it is possible in small steps to control your finances.
 
-O entendimento do uso correto dos componentes, estruturação do código e autenticações de rotas. 
 
-# Tecnologias Usadas.
+
+# Technologies.
 
 + React Native
 + javaScript
@@ -17,7 +16,7 @@ O entendimento do uso correto dos componentes, estruturação do código e auten
 
 
 
-# Referências: 
+# References: 
 
 Styled Components:https://styled-components.com/docs/basics
 <br>
